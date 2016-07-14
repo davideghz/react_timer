@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       '$': 'jquery',
-      'jQuey': 'jquery'
+      'jQuery': 'jquery'
     })
   ],
   output: {
@@ -26,6 +26,7 @@ module.exports = {
       Nav: 'app/components/Nav.jsx',
       Timer: 'app/components/Timer.jsx',
       Countdown: 'app/components/Countdown',
+      Clock: 'app/components/Clock.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['','.js','.jsx']
